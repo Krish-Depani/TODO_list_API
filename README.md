@@ -24,7 +24,9 @@
 
 ## Installation 
 - Run the command below to install necessary modules.
-- `pip install fastapi mysql-connector-python pydantic python-dotenv uvicorn uvicorn[standard]`
+    ```
+    pip install fastapi mysql-connector-python pydantic python-dotenv uvicorn uvicorn[standard]
+    ```
 
 ## Database Structure
 
@@ -45,4 +47,4 @@
 - open terminal/command_prompt where project is installed.
 - Run `uvicorn main:app --reload` command.
 - Now it will be running in localhost at port 8000.
-- Checkout at http://127.0.0.1:8000/docs?api_key=token
+- Checkout at http://127.0.0.1:8000/docs?api_key=YOUR-TOKEN
